@@ -34,6 +34,22 @@
     - Use server-side encryption with provider managed keys
     - Encrypt data in transit
 
+#### 3. Reliability
+
+- The ability of a workload to perform its reqired function:
+   - correctly and
+   - consistently
+  over an expected period of time.
+
+To do this, design principles are:
+  - Automatically recover from failure
+  - Test recovery procedures
+  - Scale horizontally to increase aggregate workload availability
+  - Stop guessing capity
+  - Manage change in automation
+    - using IaC (CloudFormation or Terraform)
+
+
 
 ### References:
 
@@ -44,3 +60,5 @@
 3. [AWS Well-Architected for Startups - Cost Optimisation | Amazon Web Services](https://www.youtube.com/watch?v=tXRPicLruWc&list=PLhr1KZpdzukdc8hT9hCF8hwfWkYAX-frO&index=2)
 
 4. [AWS Well-Architected for Startups - Security](https://www.youtube.com/watch?v=s9vf3r2fGXI&list=PLhr1KZpdzukdc8hT9hCF8hwfWkYAX-frO&index=3)
+
+5. [AWS Well-Architected for Startups - Reliability](https://www.youtube.com/watch?v=U5CIFoWG00A&list=PLhr1KZpdzukdc8hT9hCF8hwfWkYAX-frO&index=4)
