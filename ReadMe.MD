@@ -16,14 +16,20 @@
    5. Cost Optimization, and 
    6. Sustainability.
 
+### Why would we need do it?
+
+- The ultimate goal of WAFR is to improve your systems' architecture so that these systems can better support business needs.
+
 
 ### 6 Pillars
 
-#### 1. Cost Optimization
+#### 1. Operational Excelence
 
-- Terminate unused resources
-- Resize resources that are overprovisioned
-- Automate shotdown on schedule
+-  Perform operations as code
+-  Make frequent, small, reversible changes
+-  Refine operations procedures frequently
+-  Anticipate failure
+-  Learn from all operational failures
 
 #### 2. Security
 
@@ -33,6 +39,7 @@
     - Encrypt data at rest
     - Use server-side encryption with provider managed keys
     - Encrypt data in transit
+
 
 #### 3. Reliability
 
@@ -49,7 +56,11 @@ To do this, design principles are:
   - Manage change in automation
     - using IaC (CloudFormation or Terraform)
 
+#### 5. Cost Optimization
 
+  - Terminate unused resources
+  - Resize resources that are overprovisioned
+  - Automate shutdown on schedule
 
 ### References:
 
@@ -62,3 +73,7 @@ To do this, design principles are:
 4. [AWS Well-Architected for Startups - Security](https://www.youtube.com/watch?v=s9vf3r2fGXI&list=PLhr1KZpdzukdc8hT9hCF8hwfWkYAX-frO&index=3)
 
 5. [AWS Well-Architected for Startups - Reliability](https://www.youtube.com/watch?v=U5CIFoWG00A&list=PLhr1KZpdzukdc8hT9hCF8hwfWkYAX-frO&index=4)
+
+6. [AWS Well-Architected for Startups - Operational Excellence](https://www.youtube.com/watch?v=m0iUkVYUYeY&list=PLhr1KZpdzukdc8hT9hCF8hwfWkYAX-frO&index=5)
+
+7. https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part1/
