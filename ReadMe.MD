@@ -16,9 +16,25 @@
    5. Cost Optimization, and 
    6. Sustainability.
 
-### Why would we need do it?
+### Why would we need do it? (7*)
 
 - The ultimate goal of WAFR is to improve your systems' architecture so that these systems can better support business needs.
+
+- Process:
+  1. Start reviewing the current architecture and comparing it against best practices. 
+     - You do so by answering the review questions.
+     - A set of questions for each pillar 
+     - Identify areas in the architecture that represent high, medium or low risks – More on that later
+  2.  Start working on resolving the risks on a priority-based approach by identifying the highest impact of these risks
+     - Create an improvement plan to address them
+
+### Which Workloads should be reviewed? (8*)
+
+1. Could cause damage to business reputation or revenue streams
+2. Foundational Business Applications (Benefits, Payrolls etc)
+3. Aggressive RPO/RTO
+4. Data Security critical  
+5. Time-bound event-driven workloads (i.e Seper Bowl, Oscars, etc.)
 
 
 ### 6 Pillars
@@ -77,3 +93,7 @@ To do this, design principles are:
 6. [AWS Well-Architected for Startups - Operational Excellence](https://www.youtube.com/watch?v=m0iUkVYUYeY&list=PLhr1KZpdzukdc8hT9hCF8hwfWkYAX-frO&index=5)
 
 7. https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part1/
+
+8. [How to Prepare for an AWS Well Architected Review - ThoughtfulTechy Cloud](https://www.youtube.com/watch?v=59muQ6D7HrI)
+
+9. AWS Well-Architected Framework - https://docs.aws.amazon.com/pdfs/wellarchitected/latest/framework/wellarchitected-framework.pdf
